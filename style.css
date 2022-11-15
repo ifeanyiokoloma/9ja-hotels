@@ -31,8 +31,11 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navbar ul {
+ul {
   list-style: none;
+}
+
+.navbar ul {
   gap: 6em;
 }
 
@@ -49,7 +52,7 @@ footer {
 
 main,
 .hero-text,
-.hotels .details,
+.details,
 footer {
   flex-direction: column;
 }
@@ -60,8 +63,7 @@ img {
   object-fit: cover;
 }
 
-a,
-.btn {
+a {
   text-decoration: none;
 }
 
@@ -81,7 +83,7 @@ section,
   min-height: var(--page-height);
 }
 
-ul,
+.navbar ul,
 .cta-links {
   align-items: center;
   justify-content: space-between;
