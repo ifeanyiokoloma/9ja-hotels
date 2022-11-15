@@ -397,6 +397,9 @@ small {
   .grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .hotels h2 {
+    line-height: 1.1;
+  }
 }
 
 @media screen and (max-width: 319px) {
