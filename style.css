@@ -100,6 +100,11 @@ h5 {
   margin: 0.3em 0;
   line-height: 0.7em;
   text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+p, a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 .hotel-box figure {
@@ -119,7 +124,6 @@ h5 {
 
 .hotel-box .details {
   padding: .5em;
-  font-family: sans-serif;
   gap: 0.3em;
 }
 
@@ -173,7 +177,6 @@ h5 {
   color: rgb(201, 200, 200);
   font-size: 1rem;
   font-weight: lighter;
-  font-family: sans-serif;
   text-shadow: var(--txt-shadow);
   transition: 500ms;
   font-weight: 600;
@@ -220,7 +223,6 @@ h5 {
   font-size: 1.3rem;
   color: rgb(234, 175, 39);
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-  font-family: sans-serif;
 }
 
 .hero .cta-links {
