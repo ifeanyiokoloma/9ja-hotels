@@ -7,7 +7,7 @@
   );
   --pri-light-color: rgb(234, 175, 39);
   --pri-dark-color: rgb(186, 135, 15);
-  --sec-bg-color: rgb(4, 0, 0);
+  --sec-bg-color: rgba(4, 0, 0, .7);
   --third-bg-color: rgb(115, 0, 7);
   --spacing: 1em;
   --spacing-lg: 2em;
@@ -110,15 +110,15 @@ h5 {
 }
 
 .one figure {
-  height: 75%;
+  height: 65%;
 }
 
 .two figure {
-  height: 70%;
+  height: 65%;
 }
 
 .hotel-box .details {
-  padding: 1em;
+  padding: .5em;
   font-family: sans-serif;
   gap: 0.3em;
 }
@@ -157,10 +157,10 @@ h5 {
   transform: translateX(-50%);
   left: 50%;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   background-color: whitesmoke;
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
   backdrop-filter: var(--glass);
@@ -235,7 +235,7 @@ h5 {
 }
 
 .hero-text .cta-links > :first-child {
-  background: rgb(186, 135, 15);
+  background: rgba(186, 135, 15, .7);
 }
 
 .hero-text .cta-links > :last-child {
@@ -352,7 +352,11 @@ small {
   }
 }
 
-@media screen and (max-width: 540px) {
+/* @media screen and (max-width: 611px) {
+  
+} */
+
+@media screen and (max-width: 611px) {
   .navbar {
     width: 90%;
   }
