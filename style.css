@@ -148,7 +148,7 @@ a {
 .hotel-box {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  background-color: whitesmoke;
+  background-color: rgb(246, 234, 234);
 }
 
 .hotels header {
@@ -248,7 +248,7 @@ a {
 }
 
 .hero-text .cta-links > :last-child {
-  background-color: var(--sec-bg-color);
+  background-color: rgba(115, 0, 7, .7);
 }
 
 footer {
